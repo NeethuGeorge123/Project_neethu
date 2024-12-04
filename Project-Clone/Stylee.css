@@ -1,0 +1,342 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.outer
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.navbar
+{
+    width: 110px;
+    height: 100%;
+    background-color:#111;
+    position: fixed;
+    
+}
+.logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+    background-color: inherit;
+}
+.subscribe
+{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.btn1
+{
+    border-radius: 10px;
+    color: rgba(180, 175, 77, 0.943);
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(67, 49, 36);
+    
+    border: 0;
+    height: 20px;
+    width: 90px;
+}
+svg
+{
+    width: 20px;
+    color: rgb(201, 197, 197);
+    
+}
+.item1
+{
+    margin-top: 8px;
+    margin-left: 45px;
+    margin-right: auto;
+}
+.search 
+{
+    
+    margin-top: 32px;
+    margin-left: 45px;
+}
+i.house
+{
+    width: 20px;
+    color: white;
+    margin-top: 32px;
+    margin-left: 45px;
+       
+}
+i{
+    color: white;
+}
+img.tv
+{
+    width: 40px;
+    color: white;
+    margin-top: 32px;
+    margin-left: 35px;  
+}
+
+.movie,img.sports,.category
+{
+    margin-top: 17px;
+    margin-left: 35px;
+}
+.header
+{
+    width: 100%;
+    height: 550px;
+    background-image: url("Tanhaji-film.webp");
+    background-size: cover;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+.head1
+{
+    width: 50%;
+    height: 500px;
+    margin-left: 107px;
+}
+.head2{
+    width: 50%;
+    height: 500px;
+
+}
+.namee
+{
+  height: 50%;
+  padding-top: 120px;  
+  font-size: 40px;
+  color: red;
+  text-align: justify;
+  padding-left: 0px;
+  letter-spacing: -1px;
+   
+}
+.head1-btn
+{
+padding-top: 30px;
+padding-left: 5px;
+
+}
+.head-sub,.btnplus
+{
+    width: 350px;
+    height: 50px;
+    border-radius: 6px;
+    border: 0;
+    background-color: rgba(107, 105, 123, 0.724);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.btnplus
+{
+    width: 50px;
+ margin-left: 15px;
+ font-size: 22px;
+   
+}
+.type
+{
+    text-decoration: none;
+    margin-top:100px ;
+    line-height: 80px;
+}
+.fortype
+{
+    text-decoration: none;
+    color: white;
+    
+}
+.about
+{
+    height: 10%;
+    padding-top: 0px;
+    padding-left: 5px;
+    color: white;
+    
+
+}
+.btn-about
+{
+    color: antiquewhite;
+    background-color: rgb(85, 86, 100);
+    border-radius: 5px;
+    border: 0;
+    width: 55px;
+    height: 20px;
+}
+.filmtype
+{
+    height: 25%;
+    padding-left: 5px;
+    color: whitesmoke;
+    line-height: 22px;
+}
+.head1-btn
+{
+    height:15% ;
+}
+.head2-1{
+    height: 300px;
+}
+.image-container
+{
+    height: 220px;
+/*background-color: blueviolet; */
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+margin-right: 40px;
+margin-left: 20px;
+}
+.forimage,.swiper
+{
+    width: 90px;
+    height: 40px;
+    margin-top: 125px;
+    border-radius: 5px;
+}
+.athiran{
+    width: 300px;
+
+    color: red;
+    padding-bottom: 100px;
+}
+.image-outercontainer
+{
+    width: 12%;
+    
+}
+.swiper
+{
+    font-size: 14px;
+width: 35px;
+background-image: url('Highlights.PNG');
+background-size: cover;
+color: white;
+}
+.image-card-container1,.image-card-container2
+{
+    background-color: #1f2724;
+    margin-left: 111px;
+}
+.card-latest-release
+{
+display: flex;
+flex-direction: row;
+gap: 4px;
+}
+.latest-release,.best-in-sports
+{
+    font-size: 12px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    font-family: "Inter",sans-serif;
+}
+.best-in-sports{
+    padding-top: 35px;
+}
+.text-in-sport-card
+{
+    color: white;
+    
+    
+}
+.text-decoration
+{
+    
+    text-decoration: none;
+}
+.footer-container1,.footer-container2
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer-container2
+{
+    gap: 700px;
+    height: 110px;
+}
+.footer-container1
+{
+    padding-top: 150px;
+    justify-content: flex-start;
+    gap: 230px;
+
+}
+h4{
+    color: white;
+    font-size: 15px;
+}
+ul
+{
+    color: rgb(181, 181, 233);
+    padding-top: 30px;
+    padding-left: inherit;
+
+}
+li{
+    line-height: 35px;
+    font-size: 15px;
+    padding-left: inherit;
+}
+.left-pad
+{
+padding-left: 4px;
+list-style-type: none;
+content: '✓';
+}
+ul .left-pad::before
+{
+    content: '✓   ';
+font-size: 20px;
+font-weight: bolder;
+    
+}
+.ul-need-help{
+    list-style-type: none;
+}
+.tw
+{
+    font-size: 8px;
+    padding-left: 20px;
+}
+.f-t-logo,.privacy
+{
+    list-style-type: none;
+    display: inline-block;
+}
+.f-logo{
+    font-size: 25px;
+    text-shadow:  white 2px 5px;
+    color: hsl(0, 11%, 2%);
+}
+.all-right
+{
+    color:rgb(181, 181, 233);
+    padding-top: 45px;
+    font-size: 16px;
+    
+}
+.privacy{
+    
+    line-height: 4px;
+    font-size: 16px;
+}
+.ul-privacy
+{
+    padding-top: 7px;
+}

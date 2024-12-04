@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/ionicons@5.0.0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <i class="ion-home"></i>
+    
+
+    <title>Document</title>
+</head>
+<body>
+   <div class="outer">
+    <nav class="navbar">
+    
+        <div class="forlogo">
+            <img src="data:image/png;base64,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" alt="image" class="logo">
+        </div>
+        <div class="subscribe">
+            <button class="btn1">
+                Subscribe >
+            </button>
+        </div>
+        <div class="navitem">
+            <ul>
+                <li><a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" class="item1"   fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  </svg></a></li>
+        <li><a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" class="search" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                  </svg> </a></li>
+        <li><a href=""><img src="home-icon2.PNG" class="search" alt=""></a></li>
+        <li><a href=""><img src="tv-icon.png" alt="image" class="tv"></a></li>
+        <li> <a href=""><img src="movie-icon.png" alt="image" class="movie"></a></li>
+        <li><a href=""><img src="sports-icon.PNG" alt="image" class="sports"></a></li>
+        <li><a href=""><img src="category-icon.PNG" alt="image" class="category"></a></li>
+        </ul>
+        </div>
+       
+    </nav>
+    <div class="header">
+        <div class="head1">
+            <div class="namee">
+               <!-- <h1><b><strong>അതിരൻ</strong> </b></h1>-->
+                <img class="athiran" src="Tanhaji-name.webp" alt="image">
+            </div>
+            <div class="about">
+                <span><b>2020 &#183; 2h 12m &#183; 2 Languages &#183;</b></span>
+                <button class="btn-about"><b>U/A 16+</b></button>
+            </div>
+            <div class="filmtype">
+                <p>As Aurangazeb captures the Kondhana Fort, Tanhaji <br>Malusare,Chhatrapati Shivaji Maharaj's trusted military
+                <br>leader and braveheart, ventures out to win it back <br></p>
+                <span class="type"><b><a href="" class="fortype">Drama &#124; Historical &#124; Period &#124; Casual Viewing </a></b></span>
+            </div>
+            <div class="head1-btn">
+                <button class="head-sub"><b>▶ Subscribe to Watch </b></button>
+                <button class="btnplus">+</button>
+            </div>
+
+        </div>
+        <div class="head2">
+            <div class="head2-1"></div>
+            <div class="image-container">
+                <div class="image-outercontainer"><img class="forimage first-image" src="Ready-set.PNG" alt="image"></div>
+                <div class="image-outercontainer"><img class="forimage first-image" src="Kishkindha.PNG" alt="image"></div>
+                <div class="image-outercontainer"><img class="forimage first-image" src="endurance.PNG" alt="image"></div>
+                <div class="image-outercontainer"><img class="forimage first-image" src="Tanhaji-film.webp" alt="image"></div>
+                
+                <div class="image-outercontainer"><img class="forimage first-image" src="Alien.PNG" alt="image"></div>
+                <div class="image-outercontainer"><BUtton class="swiper"><b>></b></BUtton></div>
+            </div>
+        </div>
+    </div>
+    <div class="image-card-container1">
+        <div class="latest-release">
+            <h1 class="latest">Latest Releases</h1>
+        </div>
+        <div class="card-latest-release">
+            <div class="latest-release-image"><a href=""> <img src="Ready-set.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="Thukra.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="Alien.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="Kishkindha.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="Deadpool.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="Divan.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="arm.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="endurance.PNG" alt="image"></a></div> 
+        </div>
+    </div>
+    <div class="image-card-container2">
+        <div class="best-in-sports">
+            <h1 class="best-in-text">Best in Sports</h1>
+        </div>
+        <div class="card-latest-release">
+            <div class="latest-release-image"><a href="" class="text-decoration"> <img src="Highlights.PNG" alt="image">
+               <u> <span class="text-in-sport-card"><b>1-0! Dominent IND Rout <br> AUS in Perth</b></span></u></a></div> 
+            <div class="latest-release-image"><a href="" class="text-decoration"> <img src="Hotstar-exclu.PNG" alt="image">
+                <span class="text-in-sport-card"><b>Candid with Erling <br> Haaland</b></span></a></div> 
+            <div class="latest-release-image"><a href="" class="text-decoration"> <img src="Paltan.PNG" alt="image">
+                <span class="text-in-sport-card"><b>Steelers 38-28 Paltan</b></span></a></div> 
+            <div class="latest-release-image"><a href="" class="text-decoration"> <img src="Giants.PNG" alt="image">
+                <span class="text-in-sport-card"><b>Warriorz 37-39 Giants</b></span></a></div> 
+            <div class="latest-release-image"><a href="" class="text-decoration"> <img src="hottopics.PNG" alt="image">
+                <span class="text-in-sport-card"><b>5 Things We Learnt <br>from Matchweek 12 </b></span></a></div> 
+            <div class="latest-release-image"><a href="" class="text-decoration"> <img src="Goals.PNG" alt="image">
+                <span class="text-in-sport-card"><b>Goal</b></span></a></div> 
+            
+        </div>
+
+    </div>
+    <div class="image-card-container1">
+        <div class="latest-release">
+            <h1 class="latest">Disney Movies</h1>
+        </div>
+        <div class="card-latest-release">
+            <div class="latest-release-image"><a href=""> <img src="lion-king.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="aladin.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="mermaid.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="pirates.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="moana.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="jungle-cruise.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="tangled.PNG" alt="image"></a></div> 
+            <div class="latest-release-image"><a href=""> <img src="zootopia.PNG" alt="image"></a></div> 
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container1" style="margin-left: 110px;">
+        <div class="company">
+            <h4>Company</h4>
+            <ul>
+                <li>About Us</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+        <div class="view-website-in">
+           <h4>View Website In </h4>
+            <ul><li class="left-pad">&nbsp;&nbsp;&nbsp;&nbsp;English</li> </ul>
+        </div>
+        <div class="need-help">
+            <h4>Need Help</h4>
+            <ul class="ul-need-help">
+                <li>Visit Help Center</li>
+                <li>Share Feedback</li>
+            </ul>
+        </div>
+        <div class="connect-with-us">
+            <h4>Connect with Us</h4>
+            <ul class="f-t-logo">
+                 <li  class="f-t-logo f-logo"><img src="facebook.PNG" alt=""></li>
+                    <li  class="f-t-logo"><img src="twitter.PNG" alt="" class="tw"></li>
+   
+            </ul>
+        </div>
+        </div>
+        <div class="footer-container2" style="margin-left: 110px;">
+            <div class="footer-container-2-1">
+                <p class="all-right"><img src="" alt=""> 2024 STAR. All Right Reserved</p>
+                <ul class="ul-privacy">
+                    <li class="privacy">Terms of use</li>
+                    <li class="privacy" style="margin-left: 4px;">Privacy policy </li>
+                    <li class="privacy" style="margin-left: 4px;">FAQ</li>
+                </ul>
+            </div>
+            <div class="footer-container-2-2">
+<img src="Google-play.PNG" alt="image" >
+<img src="App-store.PNG" alt="image" style="padding-left: 12px;">
+            </div>
+        </div>
+    </footer>
+   </div>
+</body>
+</html>  
